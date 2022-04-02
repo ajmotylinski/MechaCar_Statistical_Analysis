@@ -19,14 +19,19 @@ Looking at the lot specific data, Lot 1 and Lot 2 are well within spec since the
 ![Lot Summary](../main/resources/lot_summary.png)
 
 ## T-Tests on Suspension Coils
-Deliverable 3 data analysis
+T-tests are meant to focus on understanding if a sample mean is representative of the true population mean. The analysis was done across all data and then again at lot specific info. The population mean provided is 1500.
+
 ### Total t-test
+Looking at the all the data collected across all lots the p-value of 6% indicates that we should REJECT the hypothesis that the sample mean is different than the population mean.
 ![Total t-test](../main/resources/total_ttest.png)
 ### Lot 1 t-test
+Looking at the data collected for lot 1 the p-value of 100% indicates that we should REJECT the hypothesis that the sample mean is different than the population mean.
 ![Lot 1 t-test](../main/resources/lot1_ttest.png)
 ### Lot 2 t-test
+Looking at the data collected for lot 2 the p-value of 60% indicates that we should REJECT the hypothesis that the sample mean is different than the population mean.
 ![Lot 2 t-test](../main/resources/lot2_ttest.png)
 ### Lot 3 t-test
+Looking at the data collected for lot 3 the p-value of 4.1% indicates that we should ACCEPT the hypothesis that the sample mean is different than the population mean of 1500.
 ![Lot 3 t-test](../main/resources/lot3_ttest.png)
 
 ## Study Design: MechaCar vs Competition
